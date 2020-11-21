@@ -40,7 +40,7 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">EDICIÓN DE USUARIO</h5>
+                                    <h5 class="modal-title" id="exampleModalLabel">EDICIÓN DEL PRODUCTO</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                     </button>
@@ -55,7 +55,7 @@
                                             <label>descripcion:</label>
                                             <textarea class="form-control" rows="3" name="DescripciónEditar"> <?php echo($producto["Descripción"])?>  </textarea>
                                         </div>
-                                        <button type="submit" class="btn btn-info" name="botonEditar">Editar</button>
+                                        <button type="submit" class="btn btn-info" name="botonEditar">Guardar Cambios</button>
                                     </form>
                                 </div>
                             </div>

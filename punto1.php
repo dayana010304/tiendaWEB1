@@ -40,7 +40,7 @@
                 <div class="row mt-3">
                     <div class="col">
                         <label class="font-weight-bold">Foto:</label>
-                        <input type="text" class="form-control" placeholder="foto URL" name="foto">
+                        <input type="text" class="form-control" placeholder="Foto URL" name="foto">
                     </div>
                 </div>
                 <br>
