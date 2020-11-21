@@ -25,7 +25,7 @@
             <?php foreach($producto as $producto):?>
                 <div class="col mb-4">
                     <div class="card h-100">
-                        <img src="<?php echo($producto["foto"])?>" class="card-img-top" alt="imagen">
+                        <img src="<?php echo($producto["Foto"])?>" class="card-img-top" alt="imagen">
                         <div class="card-body">
                             <h3 class="card-title"><?php echo($producto["NombreLibro"]) ?></h3>
                             <p class="card-text"><?php echo($producto["Descripción"]) ?></p>
