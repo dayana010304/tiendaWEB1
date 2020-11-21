@@ -17,7 +17,11 @@
         $producto=$transaccion->consultarDatos($consultaSQL);
     ?>
     <header>
-        <h1>Productos en bodega</h1>
+      <p>
+        <font face="Brush Script MT" color="#E7E700">
+        <h1>PRODUCTOS EN BODEGA</h1>
+        </font>
+      </p>
         <hr>
     </header>
     <div class="container">

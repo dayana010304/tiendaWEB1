@@ -9,13 +9,21 @@
 </head>
 <body>
     <header>
+      <p>
+        <font face="Brush Script MT" color="#E7E700">
         <h1>REGISTRO</h1>
+        </font>
+      </p>
         <hr>
     </header>
     <main>
           <div class="container">
               <form action="registrarProductos.php" method="POST">
-                <h1>ADMINISTRACION DE PRODUCTOS</h1>
+                <p>
+                  <font face="Brush Script MT" color="#E7E700">
+                  <h1>ADMINISTRACION DE PRODUCTOS</h1>
+                  </font>
+                </p>
                 
                   <div class="row">
                       <div class="col">
@@ -32,21 +40,20 @@
                 
                 <div class="row mt-3">
                       <div class="col">
-                        <label class="font-weight-bold">Descripción:</label>
-                        <textarea class="form-control" rows="4"  name="descripcion"></textarea>
+                        <label class="font-weight-bold"></label>
+                        <textarea class="form-control" rows="4" placeholder="Descripción" name="descripcion"></textarea>
                       </div>
                 </div>
 
                 <div class="row mt-3">
                     <div class="col">
-                        <label class="font-weight-bold">Foto:</label>
+                        <label class="font-weight-bold"></label>
                         <input type="text" class="form-control" placeholder="Foto URL" name="foto">
                     </div>
                 </div>
                 <br>
                 <button type="submit" class="btn btn-primary btn-lg" name="botonEnvio">Registar</button>
-                <button type="button" class="btn btn-secondary btn-lg" onclick="location.href='listaProductos.php'">Inventario
-                </button>
+                <button type="button" class="btn btn-secondary btn-lg" onclick="location.href='listaProductos.php'">Inventario</button>
             </div>
             </form>
           </div>
