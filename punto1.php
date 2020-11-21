@@ -14,36 +14,44 @@
     </header>
     <main>
           <div class="container">
-              <form action="registrarUsuarios.php" method="POST">
+              <form action="registrarProductos.php" method="POST">
                 <h1>ADMINISTRACION DE PRODUCTOS</h1>
                 
                   <div class="row">
                       <div class="col">
-                        <input type="text" class="form-control" placeholder="Nombre" name="nombre">
+                        <input type="text" class="form-control" placeholder="Nombre del libro" name="nombre" required>
                       </div>
                       <div class="col">
-                        <input type="text" class="form-control" placeholder="Marca" name="marca">
+                        <input type="text" class="form-control" placeholder="Autor" name="autor" required>
                       </div>
                   </div>
                 <br>
                       <div class="col">
-                        <input type="text" class="form-control" placeholder="Precio Producto" name="precio">
+                        <input type="text" class="form-control" placeholder="Precio del libro" name="precio" required>
                       </div>
                 
                 <div class="row mt-3">
-                    
                       <div class="col">
                         <label class="font-weight-bold">Descripción:</label>
-                        <textarea class="form-control" rows="4" name="descripcion"></textarea>
+                        <textarea class="form-control" rows="4"  name="descripcion"></textarea>
                       </div>
                 </div>
+
+                <div class="row mt-3">
+                    <div class="col">
+                        <label class="font-weight-bold">Foto:</label>
+                        <input type="text" class="form-control" placeholder="foto URL" name="foto">
+                    </div>
+                </div>
                 <br>
-                <button type="button" class="btn btn-primary btn-lg btn-block">Registrar</button>
+                <button type="submit" class="btn btn-primary btn-lg" name="botonEnvio">Registar</button>
+                <button type="button" class="btn btn-secondary btn-lg" onclick="location.href='listaProductos.php'">Inventario
+                </button>
             </div>
             </form>
           </div>
     </main>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> 
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> 
 </body>
 </html>
